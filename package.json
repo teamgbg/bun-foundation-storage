@@ -1,0 +1,72 @@
+{
+  "_generated": {
+    "system": "package-json@1.0.0",
+    "status": "generated",
+    "edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+  },
+  "name": "@teamscala/storage",
+  "capability": "Unified SSR-safe browser localStorage primitive with namespacing, TTL, and central registry. The single sanctioned storage surface.",
+  "tier": "foundation",
+  "type": "module",
+  "version": "0.0.14",
+  "description": "Unified SSR-safe browser localStorage primitive with namespacing, TTL, and central registry. The single sanctioned storage surface.",
+  "imports": {
+    "#storage/*": "./src/*",
+    "#storage/*.ts": "./src/*.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "*",
+    "@happy-dom/global-registrator": "*",
+    "@testing-library/react": "*"
+  },
+  "exports": {
+    "./client": {
+      "types": "./src/client.d.ts",
+      "default": "./src/client.ts"
+    },
+    "./client.ts": {
+      "types": "./src/client.d.ts",
+      "default": "./src/client.ts"
+    },
+    "./configure": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./configure.ts": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./create-storage": {
+      "types": "./src/create-storage.d.ts",
+      "default": "./src/create-storage.ts"
+    },
+    "./create-storage.ts": {
+      "types": "./src/create-storage.d.ts",
+      "default": "./src/create-storage.ts"
+    },
+    "./registry": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./registry.ts": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./types": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    },
+    "./types.ts": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    }
+  },
+  "repository": "https://github.com/teamgbg/bun-foundation-storage",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
