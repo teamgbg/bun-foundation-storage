@@ -35,7 +35,7 @@
 		"./types": "./src/types.ts",
 		"./types.ts": "./src/types.ts"
 	},
-	"repository": "https://github.com/teamgbg/bun-foundation-storage",
+	"repository": "https://github.com/teamgbg/foundation-storage-ts",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org"
 	}
